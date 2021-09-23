@@ -1,0 +1,36 @@
+.ProductReviewForm {
+    display: flex;
+    margin: .5rem;
+}
+
+.ProductReviewForm .field {
+    color: blue;
+    display: inline-block;
+    margin: 1.2rem;
+}
+
+.ProductReviewForm label {
+    display: inline-block;
+    width: 7rem;
+    margin: .2rem;
+}
+
+.ProductReviewForm input {
+    display: block;
+    font: inherit;
+    padding: 0.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+
+  .ProductReviewForm select {
+    display: block;
+    font: inherit;
+    padding: 0.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 7rem;
+    max-width: 100%;
+  }  

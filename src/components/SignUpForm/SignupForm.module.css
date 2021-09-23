@@ -1,0 +1,37 @@
+.SignupForm {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+  .SignupForm input {
+    display: block;
+    font: inherit;
+    padding: 0.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .SignupForm label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .SignupForm input:focus {
+    outline: none;
+    border-color: #dcd9e4;
+    background-color: #e0d4fd;
+  }
+  
+  .invalid {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  
+  .invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+  }  
