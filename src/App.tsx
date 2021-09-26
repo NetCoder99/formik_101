@@ -1,5 +1,5 @@
 import React from 'react';
-import SignupForm from './components/SignUpForm/SignupForm';
+import SignupFormGrid from './components/SignUpForm/SignupFormGrid';
 import ProductReviewForm from './components/ProductReview/ProductReviewForm';
 
 
@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <ProductReviewForm />
+      <SignupFormGrid />
     </div>
   );
 }
